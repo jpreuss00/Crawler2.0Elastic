@@ -3,10 +3,10 @@ package com.example.Crawler
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
-@SpringBootTest
+//@SpringBootTest
 class CrawlerApplicationTests {
 
-	@Test
+	//@Test
 	fun contextLoads() {
 	}
 
