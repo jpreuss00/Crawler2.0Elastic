@@ -11,7 +11,7 @@ class RssFeedScheduler(@Autowired val rssFeedService: RssFeedService) {
 
     @Scheduled(fixedDelay = 5000, initialDelay = 10000)
     fun scheduleRSSFeed(){
-        val arrayOfSections: List<String> = listOf(
+        val arrayOfSections = listOf(
             "latest", "topnews", "section/mediathek", "section/videos", "section/politik",
             "section/wirtschaft", "section/wirtschaft/bilanz", "section/finanzen",
             "section/wirtschaft/webwelt", "section/wissenschaft", "section/kultur", "section/sport",
@@ -19,7 +19,7 @@ class RssFeedScheduler(@Autowired val rssFeedService: RssFeedService) {
             "section/reise", "section/regionales", "section/debatte"
         )
         arrayOfSections.forEach{
-            rssFeedService.saveRssFeedToDB(it)
+            rssFeedService.saveRssFeedToDB(rssFeedService.readRssFeed(it))
         }
     }
 }

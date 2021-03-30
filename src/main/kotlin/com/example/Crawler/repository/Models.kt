@@ -2,11 +2,17 @@ package com.example.crawler.repository
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonRootName
+import javax.persistence.*
 
-data class JacksonArticle(
+@Entity
+@Table(name = "Articles")
+data class ArticleModel(
+
+    @Id
     @set:JsonProperty("guid")
     var guid: Long,
 
+    @Column(length = 65535)
     @set:JsonProperty("title")
     var title: String,
 
@@ -16,9 +22,11 @@ data class JacksonArticle(
     @set:JsonProperty("pubDate")
     var pubDate: String,
 
+    @Column(length = 65535)
     @set:JsonProperty("description")
     var description: String,
 
+    @Column(length = 65535)
     @set:JsonProperty("link")
     var link: String,
 )
@@ -26,7 +34,7 @@ data class JacksonArticle(
 @JsonRootName("item")
 data class Item(
     @set:JsonProperty("item")
-    var item: List<JacksonArticle> = ArrayList()
+    var item: List<ArticleModel> = ArrayList()
 )
 
 @JsonRootName("channel")
