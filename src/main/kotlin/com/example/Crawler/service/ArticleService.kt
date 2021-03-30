@@ -23,4 +23,8 @@ class ArticleService(@Autowired val articleRepository: ArticleRepository) {
     fun getArticlesByTerm(description: String, title: String): MutableIterable<ArticleModel> {
         return articleRepository.findByDescriptionContainingOrTitleContaining(description, title)
     }
+
+    fun deleteArticleById(id: Long){
+        articleRepository.deleteById(id)
+    }
 }
