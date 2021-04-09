@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:welt="https://www.welt.de/spec" version="2.0">
+    <channel>
+        <title>Wirtschaft - WELT</title>
+        <link>https://www.welt.de/feeds/section/wirtschaft.rss</link>
+        <description>Wirtschaft - Aktuelle Nachrichten von WELT</description>
+        <language>de</language>
+        <pubDate>Wed, 31 Mar 2021 11:08:31 GMT</pubDate>
+        <image>
+            <title>Wirtschaft - WELT</title>
+            <url>https://www.welt.de/rss-logo.png</url>
+            <link>https://www.welt.de/feeds/section/wirtschaft.rss</link>
+            <width>90</width>
+            <height>36</height>
+        </image>
+        <item>
+            <title>Der überraschende Aufschwung der einstigen Lockdown-Verlierer</title>
+            <link>https://www.welt.de/wirtschaft/article229483807/Grossbritannien-Ueberraschender-Aufschwung-der-Lockdown-Verlierer.html</link>
+            <description>Die Briten haben den dritten Lockdown erstaunlich gut verkraftet. Aufgrund der großen Impffortschritte hofft das Land nun darauf, dass kein weiteres Herunterfahren mehr nötig ist. Doch der Vakzin-Streit mit Brüssel gefährdet das ehrgeizige Ziel von Premier Boris Johnson.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229483805/8631629347-ci23x11-w780/Canary-Wharf.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 11:08:31 GMT</pubDate>
+            <author>Claudia Wanner</author>
+            <guid>229483807</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Claudia Wanner</dc:creator>
+            <dc:subject>Großbritannien</dc:subject>
+            <welt:topic>Großbritannien</welt:topic>
+        </item>
+        <item>
+            <title>„Sicherste Standorte“ – und trotzdem dürfen die Deutschen nicht in die Baumärkte</title>
+            <link>https://www.welt.de/wirtschaft/article229346251/Start-der-Gartensaison-und-Corona-Jetzt-leiden-auch-Baumaerkte.html</link>
+            <description>Die Gartensaison beginnt – und normalerweise ziehen die Deutschen los, um sich mit Pflanzen und Erde einzudecken. Doch nach dem Rekordjahr 2020 sind die Baumärkte nun vielerorts dicht. Und sobald die Märkte wieder öffnen dürfen, droht bereits der erste Engpass.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229483171/7601621247-ci23x11-w780/Coronavirus-Oeffnung-Gartenmarkt.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 11:08:13 GMT</pubDate>
+            <author>Stephan Maaß</author>
+            <guid>229346251</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Stephan Maaß</dc:creator>
+            <dc:subject>Start der Gartensaison</dc:subject>
+            <welt:topic>Start der Gartensaison</welt:topic>
+        </item>
+        <item>
+            <title>Kauf statt Miete – hier lohnt es sich trotz Zinsanstieg</title>
+            <link>https://www.welt.de/finanzen/immobilien/plus229476697/Immobilien-Kauf-statt-Miete-hier-lohnt-es-sich-trotz-Zinsanstieg.html</link>
+            <description>Kein Ende beim Immobilien-Boom? 50 Städte hat das Institut der deutschen Wirtschaft (IW) untersucht und kommt zum Schluss: Trotz leicht gestiegener Zinsen lohnt sich Wohneigentum. Vor allem in diesen Städten (Video mit Transkript).</description>
+            <enclosure url="https://img.welt.de/img/incoming/mobile229482737/7741629577-ci23x11-w780/WELT-Immobilien-Foto-einzeln-JPG.jpg" type="image/jpeg" />
+            <category>Immobilien</category>
+            <pubDate>Wed, 31 Mar 2021 10:47:35 GMT</pubDate>
+            <author>Clemens Hirmke</author>
+            <guid>229476697</guid>
+            <welt:premium>true</welt:premium>
+            <dc:creator>Clemens Hirmke</dc:creator>
+            <dc:subject>Immobilien</dc:subject>
+            <welt:topic>Immobilien</welt:topic>
+        </item>
+        <item>
+            <title>Angriff auf Teslas Herzstück – so wollen die Deutschen Elon Musks Dominanz brechen</title>
+            <link>https://www.welt.de/wirtschaft/article228878775/Autonomes-Fahren-Deutsche-Autobauer-wollen-Tesla-Co-einholen.html</link>
+            <description>Die deutschen Hersteller investieren Milliarden, um ihre Autos mit eigener Software zu versorgen. Doch bisher geben sie dabei ein klägliches Bild ab. Jetzt schüren neue Zulieferer die Hoffnung für eine Revolution in der Industrie.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile228878769/6791621047-ci23x11-w780/Artificial-Intelligence-of-Deep-Learning.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 10:47:14 GMT</pubDate>
+            <author>Daniel Zwick</author>
+            <guid>228878775</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Daniel Zwick</dc:creator>
+            <dc:subject>Zukunft der Mobilität</dc:subject>
+            <welt:topic>Zukunft der Mobilität</welt:topic>
+        </item>
+        <item>
+            <title>„Mehr Teststellen dadurch, dass der Handel sich einbringt“</title>
+            <link>https://www.welt.de/wirtschaft/video229477571/Corona-Pandemie-Handel-will-sich-am-Testen-beteiligen.html</link>
+            <description>In Berlin und Brandenburg will sich der Einzelhandel am Testen beteiligen, um so weiterhin das Einkaufen mit Termin zu ermöglichen. Nils Busch-Petersen, Hauptgeschäftsführer vom Handelsverband Berlin-Brandenburg erklärt die konkreten Pläne.</description>
+            <enclosure url="https://img.welt.de/img/incoming/mobile229476627/6101629507-ci23x11-w780/Photoshop-Schraege-jpg.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 10:10:38 GMT</pubDate>
+            <guid>229477571</guid>
+            <welt:premium>false</welt:premium>
+            <dc:subject>Corona-Pandemie</dc:subject>
+            <welt:topic>Corona-Pandemie</welt:topic>
+            <dc:source>WELT</dc:source>
+            <welt:source>WELT</welt:source>
+        </item>
+        <item>
+            <title>Freie Bahn für Cannabisblüten? Das BGH-Urteil hat einen entscheidenden Haken</title>
+            <link>https://www.welt.de/wirtschaft/gruenderszene/article229470351/Neues-BGH-Urteil-zu-Cannabisblueten-ist-fuer-Start-ups-nur-ein-Teilerfolg.html</link>
+            <description>Bislang bekamen Unternehmen für den Handel mit Cannabisblüten Ärger mit der Justiz. Nun entschied der Bundesgerichtshof: Der Verkauf kann legal sein – allerdings nur unter einer interessanten Bedingung. Andere Länder sind da schon weiter.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/gruenderszene/mobile229470349/0481625347-ci23x11-w780/Young-man-holding-a-bouquet-of-cut-branches.jpg" type="image/jpeg" />
+            <category>Gründerszene</category>
+            <pubDate>Wed, 31 Mar 2021 08:49:57 GMT</pubDate>
+            <author>Sarah Heuberger</author>
+            <guid>229470351</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Sarah Heuberger</dc:creator>
+            <dc:subject>CBS-Shops</dc:subject>
+            <welt:topic>CBS-Shops</welt:topic>
+        </item>
+        <item>
+            <title>Zahl der Arbeitslosen im März leicht zurückgegangen</title>
+            <link>https://www.welt.de/videos/video229470721/Fruehjahrsbelebung-Zahl-der-Arbeitslosen-leicht-zurueckgegangen.html</link>
+            <description>Die Zahl der Arbeitslosen in Deutschland ist im März um 77.000 zurückgegangen. Insgesamt waren in dem Monat 2,827 Millionen Menschen ohne Job, das sind 492.000 mehr als zur gleichen Zeit des Vorjahres. Die Arbeitslosenquote betrug 6,2 Prozent.</description>
+            <enclosure url="https://img.welt.de/img/bildergalerien/mobile229470247/9791629617-ci23x11-w780/Agentur-fuer-Arbeit.jpg" type="image/jpeg" />
+            <category>Videos</category>
+            <pubDate>Wed, 31 Mar 2021 08:42:45 GMT</pubDate>
+            <guid>229470721</guid>
+            <welt:premium>false</welt:premium>
+            <dc:subject>Frühjahrsbelebung</dc:subject>
+            <welt:topic>Frühjahrsbelebung</welt:topic>
+            <dc:source>WELT</dc:source>
+            <welt:source>WELT</welt:source>
+        </item>
+        <item>
+            <title>Das wichtigste Samsung-Smartphone des Jahres ist ein echtes Mittelklasse-Ass</title>
+            <link>https://www.welt.de/wirtschaft/webwelt/article229470595/Galaxy-A52-im-Test-Das-wohl-wichtigste-Samsung-Smartphone-des-Jahres.html</link>
+            <description>Top-Display, ordentliche Kamera, wasserdicht: Mit dem neuen Galaxy A52 will Samsung die Konkurrenz aus China kleinhalten. Im Test lieferte das Mittelklasse-Smartphone ein starkes Paket ab. Doch bei der 5G-Version gibt es eine Überraschung.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/webwelt/mobile229470581/0411626317-ci23x11-w780/Computer-Bild.jpg" type="image/jpeg" />
+            <category>Webwelt &amp; Technik</category>
+            <pubDate>Wed, 31 Mar 2021 08:39:51 GMT</pubDate>
+            <author>Christian Just</author>
+            <guid>229470595</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Christian Just</dc:creator>
+            <dc:subject>Galaxy A52 im Test</dc:subject>
+            <welt:topic>Galaxy A52 im Test</welt:topic>
+        </item>
+        <item>
+            <title>USA und Deutschland mit Abstand größte Impfstoff-Investoren </title>
+            <link>https://www.welt.de/wirtschaft/article229467871/USA-und-Deutschland-mit-Abstand-groesste-Impfstoff-Investoren.html</link>
+            <description>Am meisten in die Entwicklung von Corona-Impfstoffen haben weltweit die USA und Deutschland investiert. Insgesamt flossen in beiden Ländern drei Milliarden Euro aus der Staatskasse.</description>
+            <enclosure url="https://img.welt.de/img/bildergalerien/mobile229467821/9511629997-ci23x11-w780/Virus-Outbreak-Germany-Vaccine-Manufacturing.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 08:02:50 GMT</pubDate>
+            <guid>229467871</guid>
+            <welt:premium>false</welt:premium>
+            <dc:subject>Milliarden aus Staatskasse</dc:subject>
+            <welt:topic>Milliarden aus Staatskasse</welt:topic>
+            <dc:source>dpa/coh</dc:source>
+            <welt:source>dpa/coh</welt:source>
+        </item>
+        <item>
+            <title>Warum ist der Chef doch nie der Chef, Anders Indset?</title>
+            <link>https://www.welt.de/podcasts/die-macher/article218758524/Anders-Indset-Die-Zukunft-von-Wirtschaft-und-Politik-gehoert-den-Frauen.html</link>
+            <description>Anders Indset war Handball-Bundesligaspieler und Unternehmer. Heute inspiriert der Wirtschaftsphilosoph Manager. Im Podcast erzählt er, wer die wirklichen Chefs in einem Unternehmen sind und warum reine Verwalter bald abgeschafft werden.</description>
+            <enclosure url="https://img.welt.de/img/podcasts/die-macher/mobile207913109/9511624857-ci23x11-w780/200407-Welt-Podcast-Die-Macher.jpg" type="image/jpeg" />
+            <category>Die Macher</category>
+            <pubDate>Wed, 31 Mar 2021 06:55:00 GMT</pubDate>
+            <author>Inga Michler</author>
+            <guid>218758524</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Inga Michler</dc:creator>
+            <dc:subject>Podcast</dc:subject>
+            <welt:topic>Podcast</welt:topic>
+        </item>
+        <item>
+            <title>Wie erkennen Sie echte Talente, Frau Stimpel?</title>
+            <link>https://www.welt.de/podcasts/die-macher/article207912993/Headhunter-Worauf-achtet-Deutschlands-Top-Recruiterin-Podcast.html</link>
+            <description>In der ersten Folge des neuen WELT-Karrierepodcasts „Die Macher“ hat Wirtschaftsreporterin Inga Michler Deutschlands führende Headhunterin zu Gast. Christine Stimpel erzählt, wie man ganz nach oben kommt und wie die Corona-Krise den Jobmarkt verändern wird.</description>
+            <enclosure url="https://img.welt.de/img/podcasts/die-macher/mobile207913109/9511624857-ci23x11-w780/200407-Welt-Podcast-Die-Macher.jpg" type="image/jpeg" />
+            <category>Die Macher</category>
+            <pubDate>Wed, 31 Mar 2021 06:54:00 GMT</pubDate>
+            <author>Inga Michler</author>
+            <guid>207912993</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Inga Michler</dc:creator>
+            <dc:subject>Podcast</dc:subject>
+            <welt:topic>Podcast</welt:topic>
+        </item>
+        <item>
+            <title>Mitten in der Krise entdecken die Deutschen ihre Liebe zur Marktwirtschaft</title>
+            <link>https://www.welt.de/wirtschaft/article229457557/Allensbach-Umfrage-In-der-Krise-setzen-Deutsche-auf-den-Markt.html</link>
+            <description>Die Deutschen verlieren das Interesse an staatlichem Interventionismus: Nur noch eine verschwindende Minderheit glaubt, dass es ihnen besser ginge, wenn der Staat mehr in die Wirtschaft eingriffe. Doch eine bemerkenswerte Sorge werden die Deutschen einfach nicht los.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229457555/0671624017-ci23x11-w780/Germany-North-Rhine-Westphalia-Duisburg-View-of-smelting-plant.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 06:33:13 GMT</pubDate>
+            <author>Dorothea Siems</author>
+            <guid>229457557</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Dorothea Siems</dc:creator>
+            <dc:subject>Keine Zweifel am System</dc:subject>
+            <welt:topic>Keine Zweifel am System</welt:topic>
+        </item>
+        <item>
+            <title>Autofahren, Arbeiten, Lebensmittel – das ändert sich im April</title>
+            <link>https://www.welt.de/wirtschaft/article229438489/Autofahren-Arbeiten-Lebensmittel-Was-aendert-sich-im-April.html</link>
+            <description>Eine nervige Führerschein-Regel entfällt, Geldwäsche wird häufiger bestraft, und auf dem Arbeitsmarkt gelten neue Regeln. Im April gibt es wieder viele Neuigkeiten für die Deutschen. Und dieses Mal sorgt sich der Staat auch gleich doppelt um die Gesundheit seiner Bürger.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229438487/9031627787-ci23x11-w780/Kombo-April-alle-Formate.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 06:33:04 GMT</pubDate>
+            <author>Stephan Maaß</author>
+            <guid>229438489</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Stephan Maaß</dc:creator>
+            <dc:subject>Neue Gesetze und Regelungen</dc:subject>
+            <welt:topic>Neue Gesetze und Regelungen</welt:topic>
+        </item>
+        <item>
+            <title>Jetzt wird die Energiewende zur Gefahr für ganz Deutschland</title>
+            <link>https://www.welt.de/wirtschaft/article229449033/Energieversorgung-Bundesrechnungshof-warnt-vor-Stromluecke.html</link>
+            <description>Die Bundesregierung nimmt höhere Strompreise und Versorgungslücken in Kauf, um die Energiewende voranzutreiben. Jetzt warnt der Bundesrechnungshof: Wenn es so weitergeht, ist der Standort Deutschland in Gefahr. Die Kosten sind außer Kontrolle – und es droht eine Stromlücke.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229449021/8281628277-ci23x11-w780/Wind-Farm.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 06:32:11 GMT</pubDate>
+            <author>Daniel Wetzel</author>
+            <guid>229449033</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Daniel Wetzel</dc:creator>
+            <dc:subject>Gefahren nicht im Blick</dc:subject>
+            <welt:topic>Gefahren nicht im Blick</welt:topic>
+        </item>
+        <item>
+            <title>„Erste kleine Atempause“ – Die aktuellen Corona-Zahlen für Sie erklärt</title>
+            <link>https://www.welt.de/wirtschaft/video221032152/Erste-kleine-Atempausen-Die-aktuellen-Corona-Zahlen-fuer-Sie-erklaert.html</link>
+            <description>Jeden Tag hören wir die neuen Corona-Fallzahlen. Aber was bedeuten sie, an welcher Stelle der Pandemie stehen wir? Und wie ist die Tendenz? Olaf Gersemann erklärt und bewertet hier jeden Morgen kurz und kompakt die Zahlen. Alles, was Sie am 31. März wissen müssen.</description>
+            <enclosure url="https://img.welt.de/img/incoming/mobile221032362/9531627867-ci23x11-w780/Start-Gersemann-jpg.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 05:00:00 GMT</pubDate>
+            <guid>221032152</guid>
+            <welt:premium>false</welt:premium>
+            <dc:subject>90 Sekunden Corona</dc:subject>
+            <welt:topic>90 Sekunden Corona</welt:topic>
+            <dc:source>WELT / Olaf Gersemann</dc:source>
+            <welt:source>WELT / Olaf Gersemann</welt:source>
+        </item>
+        <item>
+            <title>Dax 50.000 und ein April-Scherz im Wert von 10 Milliarden Euro</title>
+            <link>https://www.welt.de/podcasts/alles-auf-aktien/article229463399/VW-Aprilscherz-Biontechs-unglaublicher-Umsatzsprung-Podcast.html</link>
+            <description>In der heutigen Folge „Alles auf Aktien“ sprechen die Finanzjournalisten Daniel Eckert und Holger Zschäpitz über neue Rekorde beim deutschen Leitindex, ein Unternehmen, das seinen Umsatz verhundertfacht hat und warum Gold bald wieder glänzen könnte.</description>
+            <enclosure url="https://img.welt.de/img/podcasts/alles-auf-aktien/mobile228332759/7561628907-ci23x11-w780/DWO-Podcast-Teaser-AllesaufAktien-cwaw.jpg" type="image/jpeg" />
+            <category>Alles auf Aktien</category>
+            <pubDate>Wed, 31 Mar 2021 03:55:34 GMT</pubDate>
+            <author>Anja Ettel, Holger Zschäpitz</author>
+            <guid>229463399</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Anja Ettel, Holger Zschäpitz</dc:creator>
+            <dc:subject>WELT-Podcast</dc:subject>
+            <welt:topic>WELT-Podcast</welt:topic>
+        </item>
+        <item>
+            <title>Korrupte Regierung, verfallende Behörden? Mach mal halblang, Deutschland!</title>
+            <link>https://www.welt.de/wirtschaft/article229420115/Thomas-Straubhaar-Lust-auf-Staatsversagen-der-Deutschen-ist-unklug.html</link>
+            <description>Es scheint, als würden die Bürger den Zusammenbruch des Staates herbeisehnen. Doch vom Versagen der inneren Ordnung ist Deutschland weit entfernt. Nur Splittergruppen stellen den Rechtsstaat in Frage. Wer sich Ihnen anschließt, macht einen fragwürdigen Fehler.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229420113/4071624087-ci23x11-w780/Kombo-Straubhaar-Staatsversagen.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Wed, 31 Mar 2021 02:36:49 GMT</pubDate>
+            <author>Thomas Straubhaar</author>
+            <guid>229420115</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Thomas Straubhaar</dc:creator>
+            <dc:subject>Übertriebene Hysterie</dc:subject>
+            <welt:topic>Übertriebene Hysterie</welt:topic>
+        </item>
+        <item>
+            <title>Triage durch die Hintertür – wird Corona jetzt wichtiger als Krebs?</title>
+            <link>https://www.welt.de/wirtschaft/article229450905/Deutsche-Krankenhaeuser-Wird-Corona-jetzt-wichtiger-als-Krebs.html</link>
+            <description>Deutschlands Krankenkassen schlagen Alarm: Die Behandlungen von Nicht-Covid-19-Patienten sind teilweise deutlich zurückgegangen. Es geht besonders um Krebs- und Herzkranke. Dahinter steckt offenbar Angst der Betroffenen – aber auch ausgesetzte Vorsorge.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229450901/5281623287-ci23x11-w780/Coronavirus-Covid-19-Patient.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 19:58:54 GMT</pubDate>
+            <author>Anne Kunz</author>
+            <guid>229450905</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Anne Kunz</dc:creator>
+            <dc:subject>Behandlungen im Krankenhaus</dc:subject>
+            <welt:topic>Behandlungen im Krankenhaus</welt:topic>
+        </item>
+        <item>
+            <title>„Ich glaube, da ist noch mehr zu erwarten“</title>
+            <link>https://www.welt.de/wirtschaft/video229460481/Dax-ueber-15-000-Punkte-Ich-glaube-da-ist-noch-mehr-zu-erwarten.html</link>
+            <description>Der Deutsche Aktienindex DAX überspringt erstmals in seiner Geschichte die psychologisch wichtige Marke von 15.000 Punkten. Warum es zu dieser Rally kommt und wo die Reise noch hingeht, darüber spricht Dietmar Deffner mit dem Kapitalmarktanalysten Robert Halver.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229460565/2511621547-ci23x11-w780/combo-dax-halver-01-jpg.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 17:44:13 GMT</pubDate>
+            <guid>229460481</guid>
+            <welt:premium>false</welt:premium>
+            <dc:subject>Dax über 15.000 Punkte</dc:subject>
+            <welt:topic>Dax über 15.000 Punkte</welt:topic>
+            <dc:source>WELT</dc:source>
+            <welt:source>WELT</welt:source>
+        </item>
+        <item>
+            <title>Geht der Immobilienboom bald zu Ende?</title>
+            <link>https://www.welt.de/podcasts/deffner-und-zschaepitz/article229451789/Geht-der-Immobilienboom-bald-zu-Ende-Podcast.html</link>
+            <description>Die Preise für Wohnungen und Häuser in Deutschland steigen seit gut zehn Jahren. Jeder Boom hat aber ein Ende - wann es am Immobilienmarkt soweit sein könnte und was die Folgen sind, darüber diskutieren die Wirtschaftsjournalisten Dietmar Deffner und Holger Zschäpitz.</description>
+            <enclosure url="https://img.welt.de/img/podcasts/deffner-und-zschaepitz/mobile204355430/9021621217-ci23x11-w780/Podcast-Deffner-und-Zschaepitz-Wirtschaftspodcast.jpg" type="image/jpeg" />
+            <category>Deffner und Zschäpitz</category>
+            <pubDate>Tue, 30 Mar 2021 16:13:45 GMT</pubDate>
+            <guid>229451789</guid>
+            <welt:premium>false</welt:premium>
+            <dc:subject>Podcast</dc:subject>
+            <welt:topic>Podcast</welt:topic>
+        </item>
+        <item>
+            <title>Wird VW in den USA zu „Voltswagen“? Diese Idee zeigt den Wolfsburger Größenwahn</title>
+            <link>https://www.welt.de/wirtschaft/article229438329/Voltswagen-VW-fummelt-in-den-USA-mal-wieder-an-den-Etiketten.html</link>
+            <description>VW will seine US-Tochter angeblich umbenennen und ein bisschen mehr nach Tesla klingen. Ein Marketing-Trick, der nicht der Rede wert wäre – wenn daraus nicht schon wieder die typische Selbstüberschätzung spräche.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229438327/5041621937-ci23x11-w780/Kombo-Vetter-Clean-Diesel.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 14:38:20 GMT</pubDate>
+            <author>Philipp Vetter</author>
+            <guid>229438329</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Philipp Vetter</dc:creator>
+            <dc:subject>Autobauer</dc:subject>
+            <welt:topic>Autobauer</welt:topic>
+        </item>
+        <item>
+            <title>Die Milliarden-Fusion befeuert den Traum vom Zeitalter der Flugtaxis</title>
+            <link>https://www.welt.de/wirtschaft/article229440491/Lufttaxi-Start-up-Lilium-geht-an-die-US-Tech-Boerse.html</link>
+            <description>Das deutsche Lufttaxi-Projekt Lilium hat einen kühnen Plan entwickelt, um an der Börse frischer Kapital zu sammeln. Denn der Wettbewerb um Technologie und Geld wird härter. Deshalb wagt die Firma auch gleich eine spektakuläre Ankündigung. Doch die sorgt für Skepsis.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229440489/6091628277-ci23x11-w780/Lilium-Hero-Jet.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 14:37:32 GMT</pubDate>
+            <author>Gerhard Hegmann</author>
+            <guid>229440491</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Gerhard Hegmann</dc:creator>
+            <dc:subject>Plan für Börsengang</dc:subject>
+            <welt:topic>Plan für Börsengang</welt:topic>
+        </item>
+        <item>
+            <title>Flexible Arbeit, keine Hierarchie – und hier bestimmen Sie sogar Ihr Gehalt</title>
+            <link>https://www.welt.de/wirtschaft/karriere/article227067635/New-Work-Flexible-Arbeit-keine-Hierarchien-selbstbestimmtes-Gehalt.html</link>
+            <description>New Work, von der in vielen Stellenanzeigen zu lesen ist, klingt oft verlockend – mehr Spaß, mehr Freiheiten, keine Hierarchien oder zermürbende Statuskämpfe. Da kommt der Verdacht auf, Geld rücke in den Hintergrund. Mitnichten: Es wird sogar ein Tabu gebrochen.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/karriere/mobile227067633/1091629567-ci23x11-w780/GettyImages-661784921.jpg" type="image/jpeg" />
+            <category>Karriere</category>
+            <pubDate>Tue, 30 Mar 2021 14:30:00 GMT</pubDate>
+            <author>Sarah Sommer</author>
+            <guid>227067635</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Sarah Sommer</dc:creator>
+            <dc:subject>New-Work-Beispiele</dc:subject>
+            <welt:topic>New-Work-Beispiele</welt:topic>
+        </item>
+        <item>
+            <title>So hart trifft der Lockdown die Wirtschaft in Ihrer Heimat</title>
+            <link>https://www.welt.de/wirtschaft/article229417543/Bundeslaender-BIP-im-Lockdown-So-sehr-trifft-die-Rezession-Ihre-Region.html</link>
+            <description>Der Wirtschaftseinbruch im vergangenen Jahr riss riesige Lücken ins Fundament des deutschen Wohlstands. Für einige Bundesländer waren die ökonomischen Schäden immens. Besonders betroffen ist aber überall die Mittelschicht. Doch es gibt eine Hoffnung.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229422655/0971624207-ci23x11-w780/Produktionsstart-fuer-neue-C-Klasse-im-Mercedes-Benz-Werk-Bremen.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 14:28:53 GMT</pubDate>
+            <author>Daniel Eckert</author>
+            <guid>229417543</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Daniel Eckert</dc:creator>
+            <dc:subject>„BIP der Bundesländer“</dc:subject>
+            <welt:topic>„BIP der Bundesländer“</welt:topic>
+        </item>
+        <item>
+            <title>Daddeln und Schlafen in der Arbeitszeit? – Das dürfen Sie im Bereitschaftsdienst</title>
+            <link>https://www.welt.de/wirtschaft/karriere/article226499263/Bereitschaftsdienst-Was-darf-ich-waehrend-der-Wartezeit-tun-Alle-Infos.html</link>
+            <description>Ob nur in Notfällen oder dauerhaft – in vielen Branchen gibt es Bereitschaftsdienste. Eine Frage, die sich dabei viele stellen: Was zählt alles zur Arbeitszeit und was darf ich während der Wartezeit tun? Experten erklären zudem, wie viel Vergütung drin ist.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/karriere/mobile226553801/6811628257-ci23x11-w780/Medical-worker-napping-at-hospital.jpg" type="image/jpeg" />
+            <category>Karriere</category>
+            <pubDate>Tue, 30 Mar 2021 14:20:00 GMT</pubDate>
+            <author>Christina Bachmann</author>
+            <guid>226499263</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Christina Bachmann</dc:creator>
+            <dc:subject>Arbeitsrecht</dc:subject>
+            <welt:topic>Arbeitsrecht</welt:topic>
+            <dc:source>dpa</dc:source>
+            <welt:source>dpa</welt:source>
+        </item>
+        <item>
+            <title>Viertagewoche, 500 Euro – was Deutschlands Schlüsselbranche jetzt bekommt</title>
+            <link>https://www.welt.de/wirtschaft/article229432379/Metall-und-Elektroindustrie-500-Euro-und-4-Tage-Woche-fuer-Beschaeftigte.html</link>
+            <description>In der größten deutschen Industrie gibt es einen neuen Tarifvertrag. Die Beschäftigten bekommen zunächst 500 Euro mehr. Zudem ist eine Viertagewoche als Option vorgesehen. Doch das ist längst nicht alles. WELT erklärt die Details – und wo künftig Ärger droht.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229432371/8441624167-ci23x11-w780/Warnstreik-und-Autokorso-von-IG-Metall.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 13:34:42 GMT</pubDate>
+            <author>Christine Haas</author>
+            <guid>229432379</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Christine Haas</dc:creator>
+            <dc:subject>Metall- und Elektroindustrie</dc:subject>
+            <welt:topic>Metall- und Elektroindustrie</welt:topic>
+        </item>
+        <item>
+            <title>Das müssen Flugreisende in Deutschland nun beachten</title>
+            <link>https://www.welt.de/wirtschaft/article229399209/Urlaub-und-Corona-Welche-Regeln-gelten-jetzt-bei-Flugreisen.html</link>
+            <description>Seit Mitternacht müssen Flugreisende nach Deutschland einen negativen Corona-Test vorlegen. Welche Tests kommen dafür infrage, wer trägt die Kosten – und was passiert, wenn das Ergebnis positiv ausfällt? Eine Übersicht.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229399235/4101621927-ci23x11-w780/Coronavirus-Flughafen-Stuttgart.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 10:15:00 GMT</pubDate>
+            <guid>229399209</guid>
+            <welt:premium>false</welt:premium>
+            <dc:subject>Corona-Testpflicht</dc:subject>
+            <welt:topic>Corona-Testpflicht</welt:topic>
+            <dc:source>dpa/sos</dc:source>
+            <welt:source>dpa/sos</welt:source>
+        </item>
+        <item>
+            <title>Allergiker-Alarm und Zonen-Warnung – das sind die neuen Funktionen für Google Maps</title>
+            <link>https://www.welt.de/wirtschaft/article229411083/Google-Maps-Neue-Funktionen-und-Verbesserungen-mit-Kuenstlicher-Intelligenz.html</link>
+            <description>Google stattet seine Kartenanwendung Maps mit neuen Funktionen aus. Der Tech-Riese verspricht mehr als 100 Verbesserungen in diesem Jahr, die mithilfe von künstlicher Intelligenz umgesetzt werden. WELT kennt die besten Neuheiten.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229411075/1681620467-ci23x11-w780/Close-up-of-woman-s-hand-using-mobile-app-on-smartphone-to-order-taxi-ride-in-bu.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 10:13:49 GMT</pubDate>
+            <author>Thomas Heuzeroth</author>
+            <guid>229411083</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Thomas Heuzeroth</dc:creator>
+            <dc:subject>Navigationsprogramm</dc:subject>
+            <welt:topic>Navigationsprogramm</welt:topic>
+        </item>
+        <item>
+            <title>Deutschland schafft den Durchbruch bei Bio-Lebensmitteln</title>
+            <link>https://www.welt.de/wirtschaft/article229408591/Bio-Lebensmittel-Oeko-Anbieter-profitieren-von-Corona-Pandemie.html</link>
+            <description>Hersteller von Bio-Produkten erleben in Deutschland einen echten Boom. Bei vielen Lebensmitteln wächst der verkaufte Öko-Anteil rasant. Grund ist nicht nur der Gesundheitsaspekt. Experten sehen einen langfristigen Trend – und der hat mit jüngeren Generationen zu tun.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/mobile229408583/2511624657-ci23x11-w780/Chickens-standing-in-field.jpg" type="image/jpeg" />
+            <category>Wirtschaft</category>
+            <pubDate>Tue, 30 Mar 2021 09:57:47 GMT</pubDate>
+            <author>Carsten Dierig</author>
+            <guid>229408591</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Carsten Dierig</dc:creator>
+            <dc:subject>Historisches Absatzplus</dc:subject>
+            <welt:topic>Historisches Absatzplus</welt:topic>
+        </item>
+        <item>
+            <title>Nach dem Scrollrad-Problem lässt Carsten Maschmeyer den Deal doch noch platzen</title>
+            <link>https://www.welt.de/wirtschaft/gruenderszene/article229405329/DHDL-Deal-geplatzt-Darum-kam-der-Zaunkoenig-Deal-nicht-zustande.html</link>
+            <description>Zwei Gründer zeigten in der TV-Show „Die Höhle der Löwen“ die angeblich leichteste Computermaus der Welt – und holten sich einen Deal. Der platzte im Nachgang der Sendung allerdings. Denn es fehlte ein für Gamer essenzielles Tool.</description>
+            <enclosure url="https://img.welt.de/img/wirtschaft/gruenderszene/mobile229405327/3041621387-ci23x11-w780/TVNow-Bernd-Michael-Maurer.jpg" type="image/jpeg" />
+            <category>Gründerszene</category>
+            <pubDate>Tue, 30 Mar 2021 09:08:28 GMT</pubDate>
+            <author>Daniel Hüfner</author>
+            <guid>229405329</guid>
+            <welt:premium>false</welt:premium>
+            <dc:creator>Daniel Hüfner</dc:creator>
+            <dc:subject>„Die Höhle der Löwen“</dc:subject>
+            <welt:topic>„Die Höhle der Löwen“</welt:topic>
+        </item>
+    </channel>
+</rss>

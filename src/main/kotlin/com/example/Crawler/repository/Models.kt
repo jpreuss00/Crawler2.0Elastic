@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonRootName
 import javax.persistence.*
 
 @Entity
-@Table(name = "Articles")
+@Table(name = "Articles", indexes = [ Index(columnList = "category")])
 data class ArticleModel(
 
     @Id
@@ -16,9 +16,11 @@ data class ArticleModel(
     @set:JsonProperty("title")
     var title: String,
 
+    @Column(length = 65535)
     @set:JsonProperty("category")
     var category: String,
 
+    @Column(length = 65535)
     @set:JsonProperty("pubDate")
     var pubDate: String,
 

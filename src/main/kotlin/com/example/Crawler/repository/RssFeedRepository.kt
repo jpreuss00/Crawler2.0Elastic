@@ -18,5 +18,5 @@ class RssFeedRepository {
         .configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, true)
         .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
 
-    fun readRssFeed(url: String): Items = kotlinXmlMapper.readValue(URL(url))
+    fun readRssFeed(url: URL): Items = kotlinXmlMapper.readValue(url)
 }

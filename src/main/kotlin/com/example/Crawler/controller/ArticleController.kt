@@ -12,11 +12,11 @@ class ArticleController(@Autowired val articleService: ArticleService) {
     fun addArticle(@RequestBody article: ArticleModel) = articleService.storeArticle(article)
 
     @GetMapping("/getArticles")
-    fun getArticles(): MutableIterable<ArticleModel> = articleService.getArticles()
+    fun getArticles(): List<ArticleModel> = articleService.getArticles()
 
     @GetMapping("/getArticlesByCategory")
-    fun getArticlesByCategory(@RequestParam category: String): MutableIterable<ArticleModel> = articleService.getArticlesByCategory(category)
+    fun getArticlesByCategory(@RequestParam category: String): List<ArticleModel> = articleService.getArticlesByCategory(category)
 
     @GetMapping("/getArticlesByTerm")
-    fun getArticlesByTerm(@RequestParam term: String): MutableIterable<ArticleModel> = articleService.getArticlesByTerm(term)
+    fun getArticlesByTerm(@RequestParam term: String): List<ArticleModel> = articleService.getArticlesByTerm(term)
 }
