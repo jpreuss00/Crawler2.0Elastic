@@ -15,10 +15,8 @@ import org.testcontainers.junit.jupiter.Container
 import org.testcontainers.junit.jupiter.Testcontainers
 import java.time.LocalDateTime
 import java.time.LocalTime
-import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.random.Random
-import kotlin.streams.asSequence
 
 @SpringBootTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
@@ -80,7 +78,7 @@ class ArticleRepositoryTests {
         assertEquals(articleList[4], actual[2])
     }
 
-    @Test
+    //@Test
     fun store1MilArticles() {
 
         fun getRandomText(length: Int): String {
@@ -93,9 +91,9 @@ class ArticleRepositoryTests {
         }
 
         var guidGenerator: Long = 0
-        for (i in 0..10 ){
+        for (i in 0..1 ){
             var articleArray: ArrayList<ArticleModel> = ArrayList()
-            for ( j in 0..1000 ){
+            for ( j in 0..10000 ){
                 articleArray.add(ArticleModel(guidGenerator, getRandomText(Random.nextInt(3, 7)), getRandomText(Random.nextInt(1,3)), LocalDateTime.now().toString(), getRandomText(Random.nextInt(50, 100)), "https://google.com/"))
                 guidGenerator++
             }
