@@ -2,33 +2,28 @@ package com.example.crawler.repository
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.annotation.JsonRootName
-import javax.persistence.*
+import org.springframework.data.annotation.Id
+import org.springframework.data.elasticsearch.annotations.Document
 
-@Entity
-@Table(name = "Articles", indexes = [ Index(columnList = "category")])
+@Document(indexName = "articles")
 data class ArticleModel(
 
     @Id
     @set:JsonProperty("guid")
     var guid: Long,
 
-    @Column(length = 65535)
     @set:JsonProperty("title")
     var title: String,
 
-    @Column(length = 65535)
     @set:JsonProperty("category")
     var category: String,
 
-    @Column(length = 65535)
     @set:JsonProperty("pubDate")
     var pubDate: String,
 
-    @Column(length = 65535)
     @set:JsonProperty("description")
     var description: String,
 
-    @Column(length = 65535)
     @set:JsonProperty("link")
     var link: String,
 )
