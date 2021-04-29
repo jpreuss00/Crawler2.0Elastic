@@ -1,7 +1,6 @@
 # Crawler2.0
 Getting started:
 
-- run a docker postgres container:
-  - docker run --name selectName -e POSTGRES_PASSWORD=selectPassword -p 5432:5432 -d postgres
-- change the application.properties according to your docker container
+- run a docker elastic container:
+  - docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.12.0
 - start the application
