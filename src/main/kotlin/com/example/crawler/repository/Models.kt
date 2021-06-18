@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonRootName
 import org.springframework.data.annotation.Id
 import org.springframework.data.elasticsearch.annotations.Document
 
-@Document(indexName = "articles")
+@Document(indexName = "articles", createIndex = true)
 data class ArticleModel(
 
     @Id
@@ -13,19 +13,19 @@ data class ArticleModel(
     var guid: Long,
 
     @set:JsonProperty("title")
-    var title: String,
+    var title: String?,
 
     @set:JsonProperty("category")
-    var category: String,
+    var category: String?,
 
     @set:JsonProperty("pubDate")
-    var pubDate: String,
+    var pubDate: String?,
 
     @set:JsonProperty("description")
-    var description: String,
+    var description: String?,
 
     @set:JsonProperty("link")
-    var link: String,
+    var link: String?,
 )
 
 @JsonRootName("item")

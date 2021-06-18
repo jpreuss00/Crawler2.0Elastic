@@ -6,14 +6,17 @@ import com.example.crawler.repository.RssFeedRepository
 import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.client.WireMock.*
 import junit.framework.Assert.assertEquals
+import junit.framework.Assert.assertNotNull
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.test.annotation.DirtiesContext
 import java.net.URL
 import java.nio.file.Files
 import java.nio.file.Paths
 
 @SpringBootTest
+@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 class RssFeedRepositoryTests {
 
     @Autowired
@@ -33,6 +36,10 @@ class RssFeedRepositoryTests {
             ))
         val items: Items = rssfeedRepository.readRssFeed(URL("http://localhost:8089/test"))
         wmServer.stop()
+
+        assertNotNull(items)
+        assertNotNull(items.channel)
+        assertNotNull(items.channel.item)
 
         var actual: List<ArticleModel> = items.channel.item
         val articleList = listOf(

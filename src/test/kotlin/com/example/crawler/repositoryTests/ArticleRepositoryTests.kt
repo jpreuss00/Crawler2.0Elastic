@@ -1,49 +1,21 @@
 package com.example.crawler.repositoryTests
 
+import com.example.crawler.EmbeddedElastic
 import com.example.crawler.repository.ArticleModel
 import com.example.crawler.repository.ArticleRepository
-import com.github.dockerjava.api.command.CreateContainerCmd
-import com.github.dockerjava.api.model.ExposedPort
-import com.github.dockerjava.api.model.PortBinding
-import com.github.dockerjava.api.model.Ports
 import junit.framework.Assert.assertEquals
-import org.junit.jupiter.api.AfterEach
+import org.elasticsearch.client.Request
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.annotation.DirtiesContext
-import org.testcontainers.elasticsearch.ElasticsearchContainer
-import org.testcontainers.junit.jupiter.Container
-import org.testcontainers.junit.jupiter.Testcontainers
-import org.testcontainers.utility.DockerImageName
-import java.util.function.Consumer
+import org.springframework.test.context.TestPropertySource
 
+@TestPropertySource(properties = ["app.config.enable=true"])
 @SpringBootTest
-@Testcontainers
-@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
+@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 class ArticleRepositoryTests {
-
-    var hostPort = 9200
-    var containerExposedPort = 9200
-    var cmd: Consumer<CreateContainerCmd> =
-        Consumer<CreateContainerCmd> { e ->
-            e.withPortBindings(
-                PortBinding(
-                    Ports.Binding.bindPort(hostPort),
-                    ExposedPort(containerExposedPort)
-                )
-            )
-        }
-
-    @Container
-    var container = ElasticsearchContainer(
-        DockerImageName
-            .parse("docker.elastic.co/elasticsearch/elasticsearch-oss")
-            .withTag("7.10.1")
-    )
-        .withExposedPorts(containerExposedPort)
-        .withCreateContainerCmdModifier(cmd)
 
     val articleList = listOf(
         ArticleModel(1, "a title", "Gründerszene", "Thu, 01 Apr 2021 09:28:47 GMT", "This is a description", "https://www.welt.de/vermischtes/article229542865/Joko-und-Klaas-Kapern-ProSieben-zeigen-den-Pflegealltag-in-Echtzeit.html"),
@@ -58,13 +30,7 @@ class ArticleRepositoryTests {
 
     @BeforeEach
     fun setUp(){
-        container.start()
         articleRepository.saveAll(articleList)
-    }
-
-    @AfterEach
-    fun tearDown(){
-        container.stop()
     }
 
     @Test
@@ -72,7 +38,6 @@ class ArticleRepositoryTests {
 
         val category = "Gründerszene"
 
-        articleRepository.saveAll(articleList)
         val actual: List<ArticleModel> = articleRepository.findByCategoryContaining(category)
 
         assertEquals(2, actual.count())
@@ -85,7 +50,6 @@ class ArticleRepositoryTests {
 
         val term = "description"
 
-        articleRepository.saveAll(articleList)
         val actual: List<ArticleModel> = articleRepository.findByDescriptionContainingOrTitleContaining(term, term)
 
         assertEquals(3, actual.count())

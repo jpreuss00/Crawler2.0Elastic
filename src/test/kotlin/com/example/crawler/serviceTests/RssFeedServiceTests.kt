@@ -11,8 +11,10 @@ import java.net.URL
 import com.example.crawler.repository.ArticleModel
 import com.example.crawler.repository.Items
 import com.example.crawler.repository.Item
+import org.springframework.test.annotation.DirtiesContext
 
 @SpringBootTest
+@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 class RssFeedServiceTests {
 
     val items = Items(Item(
@@ -50,7 +52,7 @@ class RssFeedServiceTests {
         )
 
         Mockito.`when`(articleServiceMock.storeArticles(
-            items.channel.item.map {  it -> ArticleModel(it.guid, it.title, it.category, it.pubDate, it.description, it.link) }
+            items.channel.item.map { ArticleModel(it.guid, it.title, it.category, it.pubDate, it.description, it.link) }
         )).thenReturn(
             articleList
         )
