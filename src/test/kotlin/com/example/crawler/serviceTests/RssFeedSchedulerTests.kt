@@ -1,5 +1,6 @@
 package com.example.crawler.serviceTests
 
+import com.example.crawler.service.KafkaServices
 import com.example.crawler.service.RssFeedScheduler
 import com.example.crawler.service.RssFeedService
 import org.junit.jupiter.api.Test
@@ -14,7 +15,8 @@ class RssFeedSchedulerTests {
     @Test
     fun scheduleRSSFeedShouldSaveTheNewestArticles() {
         val rssFeedServiceMock = Mockito.mock(RssFeedService::class.java)
-        val rssFeedScheduler = RssFeedScheduler(rssFeedServiceMock)
+        val kafkaServicesMock = Mockito.mock(KafkaServices::class.java)
+        val rssFeedScheduler = RssFeedScheduler(rssFeedServiceMock, kafkaServicesMock)
 
         rssFeedScheduler.scheduleRSSFeed()
 

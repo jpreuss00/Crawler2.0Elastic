@@ -9,33 +9,33 @@ import org.springframework.data.elasticsearch.annotations.Document
 data class ArticleModel(
 
     @Id
-    @set:JsonProperty("guid")
+    @JsonProperty("guid")
     var guid: Long,
 
-    @set:JsonProperty("title")
+    @JsonProperty("title")
     var title: String?,
 
-    @set:JsonProperty("category")
+    @JsonProperty("category")
     var category: String?,
 
-    @set:JsonProperty("pubDate")
+    @JsonProperty("pubDate")
     var pubDate: String?,
 
-    @set:JsonProperty("description")
+    @JsonProperty("description")
     var description: String?,
 
-    @set:JsonProperty("link")
+    @JsonProperty("link")
     var link: String?,
 )
 
 @JsonRootName("item")
 data class Item(
-    @set:JsonProperty("item")
+    @JsonProperty("item")
     var item: List<ArticleModel> = ArrayList()
 )
 
 @JsonRootName("channel")
 data class Items(
-    @set:JsonProperty("channel")
+    @JsonProperty("channel")
     var channel: Item
 )

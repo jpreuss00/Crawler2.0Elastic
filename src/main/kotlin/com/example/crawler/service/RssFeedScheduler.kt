@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component
 @Configuration
 @Component
 @EnableScheduling
-class RssFeedScheduler(@Autowired val rssFeedService: RssFeedService) {
+class RssFeedScheduler(@Autowired val rssFeedService: RssFeedService, @Autowired val kafkaServices: KafkaServices) {
 
     @Scheduled(fixedDelay = 5000, initialDelay = 30000)
     fun scheduleRSSFeed(){
@@ -25,7 +25,9 @@ class RssFeedScheduler(@Autowired val rssFeedService: RssFeedService) {
             "section/reise", "section/regionales", "section/debatte"
         )
         arrayOfSections.forEach{
-            rssFeedService.saveRssFeedToDB(rssFeedService.readRssFeed(it))
+            var items = rssFeedService.readRssFeed(it)
+            kafkaServices.writeArticlesInKafka(items)
+            rssFeedService.saveRssFeedToDB(items)
         }
     }
 }
