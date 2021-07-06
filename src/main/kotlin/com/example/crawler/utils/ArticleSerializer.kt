@@ -3,7 +3,6 @@ package com.example.crawler.utils
 import com.example.crawler.repository.ArticleModel
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.apache.kafka.common.serialization.Serializer
-import org.springframework.stereotype.Service
 import java.lang.Exception
 
 class ArticleSerializer : Serializer<ArticleModel> {

@@ -7,8 +7,6 @@ import java.lang.Exception
 
 class ArticleDeserializer : Deserializer<ArticleModel> {
 
-    override fun close() {}
-
     override fun configure(var1: Map<String?, *>?, var2: Boolean) {}
 
     override fun deserialize(var1: String?, var2: ByteArray?): ArticleModel? {
@@ -21,4 +19,6 @@ class ArticleDeserializer : Deserializer<ArticleModel> {
         }
         return articleModel
     }
+
+    override fun close() {}
 }
